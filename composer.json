@@ -1,0 +1,33 @@
+{
+    "name": "thahulive/easeblog",
+    "description": "Easy Blog package",
+    "keywords": [
+        "blog",
+        "laravel"
+    ],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Aboo Thahir",
+            "email": "hai@aboothahir.in"
+        }
+    ],
+    "require": {
+        "php": ">=7.0",
+        "illuminate/support": "5.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Thahulive\\Easeblog\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Thahulive\\Easeblog\\EaseblogServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev"
+}
