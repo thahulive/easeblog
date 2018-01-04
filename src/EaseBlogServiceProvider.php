@@ -5,7 +5,7 @@ namespace Thahulive\Easeblog;
 use Illuminate\Support\ServiceProvider;
 use Illuminate\Routing\Router;
 
-class AppServiceProvider extends ServiceProvider
+class EaseBlogServiceProvider extends ServiceProvider
 {
     /**
      * Bootstrap any application services.
